@@ -100,13 +100,14 @@ namespace FirstApp02
        
                 _index--;
 
-            if (_index <= _quotes.Length)
+            if (_index < _quotes.Length) {
 
-            currentQuote.Text = _quotes[_index];
-            imageList.Source = _images[_index];
+                currentQuote.Text = _quotes[_index];
+                imageList.Source = _images[_index];
+            }
 
         }
-         
+          
 
    
     }
