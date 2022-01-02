@@ -102,6 +102,7 @@ namespace FirstApp02
 
             if (_index < _quotes.Length) {
 
+                
                 currentQuote.Text = _quotes[_index];
                 imageList.Source = _images[_index];
             }
