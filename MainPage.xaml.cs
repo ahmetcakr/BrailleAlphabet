@@ -9,7 +9,7 @@ using Xamarin.Forms.Xaml;
 
 namespace FirstApp02
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+    
     public partial class MainPage : ContentPage
     {
         private int _index = 0;
@@ -98,13 +98,21 @@ namespace FirstApp02
         private void Button_Clicked_1(object sender, EventArgs e)
         {
        
-                _index--;
+               
 
             if (_index < _quotes.Length) {
 
-                
+                 _index--;
+
                 currentQuote.Text = _quotes[_index];
                 imageList.Source = _images[_index];
+
+                if (_index<=0)
+                { 
+                    DisplayAlert("UYARI","Ilk Harfe Geri Döndünüz.\nLütfen 'Next' Butonu Ile Devam Ediniz. ","OK");
+                   
+                }
+
             }
 
         }
