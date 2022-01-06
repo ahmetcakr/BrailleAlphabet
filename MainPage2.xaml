@@ -18,8 +18,8 @@
                    x:Name="textalani"
                    TextColor="Gray"
                    BackgroundColor="AliceBlue"
-                   Placeholder="Buraya Yazınız! (Max 10 karakter!)"
-                   MaxLength="10"
+                   Placeholder="Buraya Yazınız! (Max bir karakter!)"
+                   MaxLength="1"
                    Keyboard="Chat"
                    />
 
