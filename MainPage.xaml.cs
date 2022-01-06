@@ -116,8 +116,13 @@ namespace FirstApp02
             }
 
         }
-          
 
-   
+        private void Button_Clicked_2(object sender, EventArgs e)
+        {
+            DisplayAlert("Braille Alfabesi", "Braille alfabesi veya Körler alfabesi;\n\n" +
+                " 1821 yılında Louis Braille tarafından geliştirilmiş görme engelli insanların okuyup yazması için kullanılan bir alfabe yöntemidir.\n" +
+                " İki kolon taşıyan dikdörtgen düzen üzerine dizilmiş altı kabartılmış noktadan oluşur. \n" +
+                "Her iki kolonda üçer nokta bulunur. Noktalardan her biri altmışdört farklı kombinasyondan birini oluşturması için farklı şekillerde dizilir. ", "OK");
+        }
     }
     }

@@ -49,10 +49,11 @@
                 Minimum="30" />
 
             <Grid>
-               <Button Text="Next" Clicked="Button_Clicked" HorizontalOptions="EndAndExpand" />
-               <Button Text="Back" Clicked="Button_Clicked_1" HorizontalOptions="StartAndExpand" />
+                <Button Text="Next" Clicked="Button_Clicked" HorizontalOptions="EndAndExpand" CornerRadius="30" />
+                <Button Text="Back" Clicked="Button_Clicked_1" HorizontalOptions="StartAndExpand" CornerRadius="30"/>
             </Grid>
-          
+
+            <Button Text="Braille Alfabesi Nedir ?" Clicked="Button_Clicked_2" HorizontalOptions="CenterAndExpand" BackgroundColor="Gray" Opacity="0.5" CornerRadius="30"/>
 
         </StackLayout>
      </ContentPage.Content>
