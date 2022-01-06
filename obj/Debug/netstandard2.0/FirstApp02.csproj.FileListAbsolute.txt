@@ -15,3 +15,4 @@ C:\Users\ahmet\source\repos\FirstApp02\FirstApp02\obj\Debug\netstandard2.0\ref\F
 C:\Users\ahmet\source\repos\FirstApp02\FirstApp02\obj\Debug\netstandard2.0\FirstApp02.pdb
 C:\Users\ahmet\source\repos\FirstApp02\FirstApp02\obj\Debug\netstandard2.0\MainPage2.xaml.g.cs
 C:\Users\ahmet\source\repos\FirstApp02\FirstApp02\obj\Debug\netstandard2.0\MyTabbedPage1.xaml.g.cs
+C:\Users\ahmet\source\repos\FirstApp02\FirstApp02\obj\Debug\netstandard2.0\MainPage3.xaml.g.cs

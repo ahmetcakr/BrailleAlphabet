@@ -17,6 +17,7 @@ namespace FirstApp02
             //InitializeComponent();
             Children.Add(new MainPage());
             Children.Add(new MainPage2());
+            Children.Add(new MainPage3());
         }
     }
 }
