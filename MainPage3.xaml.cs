@@ -47,107 +47,109 @@ namespace FirstApp02
 
         private void Button_Goster(object sender, EventArgs e)
         {
-            if (b2==1)
+            if (b2==1 && b1==0 && b3 == 0 && b4 == 0 && b5 == 0 && b6 == 0)
             {
                 DisplayAlert("Göster", " A HARFİ ", "OK");
+               
             }
-            else if (b2==1 && b4==1)
+            if (b2==1 && b4==1 && b1 == 0 && b3 == 0 && b5 == 0 && b6 == 0)
             {
                 DisplayAlert("Göster", " B HARFİ ", "OK");
+               
             }
-            else if (b2==1 && b1 ==1)
+            else if (b2==1 && b1 ==1 && b3 == 0 && b4 == 0 && b5 == 0 && b6 == 0)
             {
                 DisplayAlert("Göster", " C HARFİ ", "OK");
             }
-            else if (b2==1 && b1==1 && b3==1)
+            else if (b2==1 && b1==1 && b3==1 && b4 == 0 && b5 == 0 && b6 == 0)
             {
                 DisplayAlert("Göster", " D HARFİ ", "OK");
             }
-            else if (b2 == 1 && b3 == 1)
+            else if (b2 == 1 && b3 == 1 && b1 == 0 && b4 == 0 && b5 == 0 && b6 == 0)
             {
                 DisplayAlert("Göster", " E HARFİ ", "OK");
             }
-            else if (b2 == 1 && b4 == 1 && b1 == 1)
+            else if (b2 == 1 && b4 == 1 && b1 == 1 && b3 == 0 && b5 == 0 && b6 == 0)
             {
                 DisplayAlert("Göster", " F HARFİ ", "OK");
             }
-            else if (b2 == 1 && b1 == 1 && b3 == 1 && b4==1)
+            else if (b2 == 1 && b1 == 1 && b3 == 1 && b4==1 && b5 == 0 && b6 == 0)
             {
                 DisplayAlert("Göster", " G HARFİ ", "OK");
             }
-            else if (b2 == 1 && b3 == 1 && b4 == 1)
+            else if (b2 == 1 && b3 == 1 && b4 == 1 && b1 == 0 && b5 == 0 && b6 == 0)
             {
                 DisplayAlert("Göster", " H HARFİ ", "OK");
             }
-            else if (b4 == 1 && b1 == 1)
+            else if (b4 == 1 && b1 == 1 && b2 == 0 && b3 == 0 && b5 == 0 && b6 == 0)
             {
                 DisplayAlert("Göster", " I HARFİ ", "OK");
             }
-            else if (b4 == 1 && b1 == 1 && b3 == 1)
+            else if (b4 == 1 && b1 == 1 && b3 == 1 && b2 == 0 && b5 == 0 && b6 == 0)
             {
                 DisplayAlert("Göster", " J HARFİ ", "OK");
             }
-            else if (b6 == 1 && b2 == 1)
+            else if (b6 == 1 && b2 == 1 && b1 == 0 && b3 == 0 && b4 == 0 && b5 == 0)
             {
                 DisplayAlert("Göster", " K HARFİ ", "OK");
             }
-            else if (b2 == 1 && b4 == 1 && b6 == 1)
+            else if (b2 == 1 && b4 == 1 && b6 == 1 && b1 == 0 && b3 == 0 && b5 == 0)
             {
                 DisplayAlert("Göster", " L HARFİ ", "OK");
             }
-            else if (b2 == 1 && b1 == 1 && b6 == 1)
+            else if (b2 == 1 && b1 == 1 && b6 == 1 && b3 == 0 && b4 == 0 && b5 == 0)
             {
                 DisplayAlert("Göster", " M HARFİ ", "OK");
             }
-            else if (b2 == 1 && b1 == 1 && b3 == 1 && b6==1)
+            else if (b2 == 1 && b1 == 1 && b3 == 1 && b6==1 && b4 == 0 && b5 == 0)
             {
                 DisplayAlert("Göster", " N HARFİ ", "OK");
             }
-            else if (b2 == 1 && b3 == 1 && b6 == 1)
+            else if (b2 == 1 && b3 == 1 && b6 == 1 && b1 == 0 && b4 == 0 && b5 == 0)
             {
                 DisplayAlert("Göster", " O HARFİ ", "OK");
             }
-            else if (b2 == 1 && b1 == 1 && b4 == 1 && b6==1)
+            else if (b2 == 1 && b1 == 1 && b4 == 1 && b6==1 && b3 == 0 && b5 == 0)
             {
                 DisplayAlert("Göster", " P HARFİ ", "OK");
             }
-            else if (b2 == 1 && b1 == 1 && b3 == 1 && b4==1 && b6==1)
+            else if (b2 == 1 && b1 == 1 && b3 == 1 && b4==1 && b6==1 && b5 == 0)
             {
                 DisplayAlert("Göster", " Q HARFİ ", "OK");
             }
-            else if (b2 == 1 && b4 == 1 && b3 == 1 && b6==1)
+            else if (b2 == 1 && b4 == 1 && b3 == 1 && b6==1 && b1 == 0 && b5 == 0)
             {
                 DisplayAlert("Göster", " R HARFİ ", "OK");
             }
-            else if (b2 == 1 && b4 == 1 && b1 == 1)
+            else if (b2 == 1 && b4 == 1 && b1 == 1 && b3 == 0 && b5 == 0 && b6 == 0)
             {
                 DisplayAlert("Göster", " S HARFİ ", "OK");
             }
-            else if (b4 == 1 && b1 == 1 && b3 == 1 && b6==1)
+            else if (b4 == 1 && b1 == 1 && b3 == 1 && b6==1 && b2 == 0 && b5 == 0)
             {
                 DisplayAlert("Göster", " T HARFİ ", "OK");
             }
-            else if (b2 == 1 && b5 == 1 && b6 == 1)
+            else if (b2 == 1 && b5 == 1 && b6 == 1 && b1 == 0 && b3 == 0 && b4 == 0)
             {
                 DisplayAlert("Göster", " U HARFİ ", "OK");
             }
-            else if (b2 == 1 && b4 == 1 && b6 == 1 && b5==1)
+            else if (b2 == 1 && b4 == 1 && b6 == 1 && b5==1 && b1 == 0 && b3 == 0)
             {
                 DisplayAlert("Göster", " V HARFİ ", "OK");
             }
-            else if (b4 == 1 && b1 == 1 && b3 == 1 && b5==1)
+            else if (b4 == 1 && b1 == 1 && b3 == 1 && b5==1 && b2 == 0 && b6 == 0)
             {
                 DisplayAlert("Göster", " W HARFİ ", "OK");
             }
-            else if (b2 == 1 && b1 == 1 && b5 == 1 && b6==1)
+            else if (b2 == 1 && b1 == 1 && b5 == 1 && b6==1 && b3 == 0 && b4 == 0)
             {
                 DisplayAlert("Göster", " X HARFİ ", "OK");
             }
-            else if (b2 == 1 && b1 == 1 && b3 == 1 && b5==1 && b6==1)
+            else if (b2 == 1 && b1 == 1 && b3 == 1 && b5==1 && b6==1 && b4 == 0)
             {
                 DisplayAlert("Göster", " Y HARFİ ", "OK");
             }
-            else if (b2 == 1 && b5 == 1 && b3 == 1 && b6==1)
+            else if (b2 == 1 && b5 == 1 && b3 == 1 && b6==1 && b1 == 0 && b4 == 0)
             {
                 DisplayAlert("Göster", " Z HARFİ ", "OK");
             }
