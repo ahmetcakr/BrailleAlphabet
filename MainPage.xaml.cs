@@ -106,16 +106,23 @@ namespace FirstApp02
             if (_index < _quotes.Length) {            // eğer index sayısı harf dizisinin toplam veri sayısının altındaysa bunları uygula.
 
                  _index--;
-
-                currentQuote.Text = _quotes[_index];
-                imageList.Source = _images[_index];
-
-                if (_index<=0)
+              
+                if (_index==0)
                 { 
                     DisplayAlert("UYARI","Ilk Harfe Geri Döndünüz.\nLütfen 'Next' Butonu Ile Devam Ediniz. ","OK");
                     // ilk harfe geldiğince çalışan uyarı
                    
                 }
+                if (_index < 0)
+                {
+                    _index = 25;        // A dan Z ye geri döndürme
+                }
+                
+
+                currentQuote.Text = _quotes[_index];
+                imageList.Source = _images[_index];
+
+                
 
             }
 
