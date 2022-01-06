@@ -12,7 +12,8 @@ namespace FirstApp02
     
     public partial class MainPage : ContentPage
     {
-        private int _index = 0;
+        private int _index = 0;  // Dizilerin içinde sürekli artacak değer.
+
         private string[] _quotes = new string[]
         {
             " A HARFİ ",
@@ -42,7 +43,7 @@ namespace FirstApp02
             " Y HARFİ ",
             " Z HARFİ ",
 
-        };
+        };   // Harf Dizisi
 
         private string[] _images = new string[]
         {
@@ -72,14 +73,16 @@ namespace FirstApp02
              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Braille_X.svg/86px-Braille_X.svg.png",
              "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Braille_Y.svg/86px-Braille_Y.svg.png",
              "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Braille_Z.svg/86px-Braille_Z.svg.png"
-        };
+        };   // Harflerin image Dizisi
 
 
         public MainPage()
         {
             InitializeComponent();
-            currentQuote.Text = _quotes[_index];
-            imageList.Source = _images[_index];
+
+            currentQuote.Text = _quotes[_index];    // Anlık harf kaynağı için oluşturulan değişken ve harf dizisine eşitlendi.
+
+            imageList.Source = _images[_index];     // Braille alfabesi fotoğraflarının kaynağı ve images dizisine eşitlendi.
 
         }
 
@@ -87,7 +90,7 @@ namespace FirstApp02
         {
             _index++;
 
-            if (_index >= _quotes.Length)
+            if (_index >= _quotes.Length)         // index'in sayısı harf dizisinin toplam veri sayısını geçerse aşağıdakileri uygula. 
             
                 _index = 0;
             
@@ -100,7 +103,7 @@ namespace FirstApp02
        
                
 
-            if (_index < _quotes.Length) {
+            if (_index < _quotes.Length) {            // eğer index sayısı harf dizisinin toplam veri sayısının altındaysa bunları uygula.
 
                  _index--;
 
@@ -110,6 +113,7 @@ namespace FirstApp02
                 if (_index<=0)
                 { 
                     DisplayAlert("UYARI","Ilk Harfe Geri Döndünüz.\nLütfen 'Next' Butonu Ile Devam Ediniz. ","OK");
+                    // ilk harfe geldiğince çalışan uyarı
                    
                 }
 
@@ -117,7 +121,7 @@ namespace FirstApp02
 
         }
 
-        private void Button_Clicked_2(object sender, EventArgs e)
+        private void Button_Clicked_2(object sender, EventArgs e)   // Braille alfabesi nedir butonu
         {
             DisplayAlert("Braille Alfabesi", "Braille alfabesi veya Körler alfabesi;\n\n" +
                 " 1821 yılında Louis Braille tarafından geliştirilmiş görme engelli insanların okuyup yazması için kullanılan bir alfabe yöntemidir.\n" +

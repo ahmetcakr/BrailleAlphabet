@@ -12,7 +12,7 @@
      <ContentPage.Content>
                 
      <StackLayout>
-
+             
             <Label
                 Text="BRAILLE ALFABESİ"
                 TextColor="Blue"
