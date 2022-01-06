@@ -10,7 +10,7 @@ namespace FirstApp02
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MyTabbedPage1();
         }
 
         protected override void OnStart()
