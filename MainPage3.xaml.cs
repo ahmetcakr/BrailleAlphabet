@@ -23,9 +23,18 @@ namespace FirstApp02
 
         private void Button_1(object sender, EventArgs e)
         {
-            b1 = 1;
-            color_1.BackgroundColor = Color.Black;
-           
+            
+            if (color_1.BackgroundColor == Color.Black && b1 == 1)
+            {
+                color_1.BackgroundColor = Color.Default;
+                b1 = 0;
+            }
+            else
+            {
+                color_1.BackgroundColor = Color.Black;
+                b1 = 1;
+            }
+
         }
 
         private void Button_Temizle(object sender, EventArgs e)
@@ -157,32 +166,82 @@ namespace FirstApp02
 
         private void Button_2(object sender, EventArgs e)
         {
-            b2 = 1;
-            color_2.BackgroundColor = Color.Black;
+            
+           
+            if (color_2.BackgroundColor == Color.Black && b2 == 1)
+            {
+                color_2.BackgroundColor = Color.Default;
+                b2 = 0;
+            }
+            else
+            {
+                color_2.BackgroundColor = Color.Black;
+                b2 = 1;
+            }
         }
 
         private void Button_3(object sender, EventArgs e)
         {
-            b3 = 1;
-            color_3.BackgroundColor = Color.Black;
+            
+            if (color_3.BackgroundColor == Color.Black && b3 == 1)
+            {
+                color_3.BackgroundColor = Color.Default;
+                b3 = 0;
+            }
+            else
+            {
+                color_3.BackgroundColor = Color.Black;
+                b3 = 1;
+
+            }
         }
 
         private void Button_4(object sender, EventArgs e)
         {
-            b4 = 1;
-            color_4.BackgroundColor = Color.Black;
+           
+            if (color_4.BackgroundColor == Color.Black && b4 == 1)
+            {
+                color_4.BackgroundColor = Color.Default;
+                b4 = 0;
+            }
+            else
+            {
+                color_4.BackgroundColor = Color.Black;
+                b4 = 1;
+
+            }
         }
 
         private void Button_5(object sender, EventArgs e)
         {
-            b5 = 1;
-            color_5.BackgroundColor = Color.Black;
+           
+            if (color_5.BackgroundColor == Color.Black && b5 == 1)
+            {
+                color_5.BackgroundColor = Color.Default;
+                b5 = 0;
+            }
+            else
+            {
+                color_5.BackgroundColor = Color.Black;
+                b5 = 1;
+
+            }
         }
 
         private void Button_6(object sender, EventArgs e)
         {
-            b6 = 1;
-            color_6.BackgroundColor = Color.Black;
+            
+            if (color_6.BackgroundColor == Color.Black && b6 == 1)
+            {
+                color_6.BackgroundColor = Color.Default;
+                b6 = 0;
+            }
+            else
+            {
+                color_6.BackgroundColor = Color.Black;
+                b6 = 1;
+
+            }
         }
 
         
